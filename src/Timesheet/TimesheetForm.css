@@ -1,0 +1,74 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+/* TimesheetForm.css */
+
+
+
+.horizontal-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-fields-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.horizontal-field {
+  flex: 5;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 250px;
+}
+
+.date-label {
+  text-align: center;
+  margin-top: 5px;
+  color: #888;
+}
+/* TimesheetForm.css */
+
+.form-container {
+  width: 100%;
+  max-width: 800px; /* You can adjust the maximum width as per your preference */
+  margin: 0 auto; /* Center the form on the page */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.full-width-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-fields-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.horizontal-field {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 250px;
+}
+
+/* Rest of the existing CSS styles remain unchanged */

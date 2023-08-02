@@ -1,0 +1,52 @@
+.report-container {
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .approve-button {
+    background-color: green;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .reject-button {
+    background-color: red;
+    color: white;
+  }
+  .head {
+    background-color: #8cabe0; /* Set the background color */
+    color: #333; /* Set the text color */
+    font-weight: bold; /* Add bold font weight to make it more prominent */
+  }
+
+  .heading-cell {
+    background-color: #8cabe0; /* Change this color to your desired background color */
+  }

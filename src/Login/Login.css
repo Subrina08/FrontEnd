@@ -1,0 +1,18 @@
+.login-header {
+  display: flex;
+  justify-content: center;
+  border: #140606;
+  border-radius: 100%;
+}
+
+.card-container {
+  background-color: #f3f5f3;
+  border: #140606;
+  width: 100%;
+  
+}
+
+.login-button {
+  background-color: #2196f3;
+  color: #140606;
+}
