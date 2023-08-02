@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const CheckReduxStore = () => {
-  // Use the useSelector hook to access data from the Redux store
+  
   const username = useSelector((state) => state.userReducer.username);
   const password = useSelector((state) => state.userReducer.password);
   const role = useSelector((state) => state.userReducer.role);

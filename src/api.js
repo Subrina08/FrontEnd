@@ -1,4 +1,4 @@
-// Sample attendance data (replace this with your actual API response)
+
 export const getAttendanceData = () => {
     return Promise.resolve([
       {
@@ -85,7 +85,7 @@ export const getAttendanceData = () => {
         outTime: '2023-07-25T14:16:22.512923',
         hoursWorked: 64.0,
       }
-      // Add more attendance objects as needed...
+      
     ]);
   };
   

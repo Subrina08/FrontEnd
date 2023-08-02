@@ -1,16 +1,3 @@
-// import React from "react";
-// import WeeklyReport from "../WeeklyReport/WeeklyReport";
-
-// const WeeklyEntry = () => {
-//   return (
-//     <div>
-//       <h1>WeeklyEntry</h1>
-//     </div>
-//   );
-// };
-
-// export default WeeklyEntry;
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import {

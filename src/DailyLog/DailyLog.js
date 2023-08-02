@@ -26,17 +26,17 @@ const AttendanceTable = () => {
   const [showEntries, setShowEntries] = useState(false);
 
   useEffect(() => {
-    // Fetch the data from the API
+   
     axios
       .get("http://localhost:3034/attendance/report")
       .then((response) => {
         setAttendanceData(response.data);
-        // Extract unique dates from the data for filter options
+       
         const uniqueDates = [
           ...new Set(response.data.map((attendance) => attendance.date)),
         ];
         setDateOptions(uniqueDates);
-        // Set default values for date filters to the current date
+       
         const currentDate = new Date().toISOString().split("T")[0];
         setSelectedFromDate(currentDate);
         setSelectedToDate(currentDate);
@@ -68,20 +68,20 @@ const AttendanceTable = () => {
   };
 
   const hoursToMinutes = (hours) => {
-    return (hours / 60).toFixed(2); // Rounds off to two decimal places
+    return (hours / 60).toFixed(2); 
   };
 
   const filteredData = attendanceData.filter((attendance) => {
     if (!selectedFromDate && !selectedToDate) {
-      return true; // No date range selected, return all data
+      return true; 
     }
 
-    // Convert the date strings to Date objects for comparison
+    
     const attendanceDate = new Date(attendance.date);
     const fromDate = selectedFromDate ? new Date(selectedFromDate) : null;
     const toDate = selectedToDate ? new Date(selectedToDate) : null;
 
-    // Check if the attendance date falls within the selected date range
+    
     return (
       (!fromDate || attendanceDate >= fromDate) &&
       (!toDate || attendanceDate <= toDate)
@@ -98,7 +98,7 @@ const AttendanceTable = () => {
       totalHours: calculateTotalHoursByPerson(personId),
     };
 
-    // Find the location for the person (assuming each person has the same location for all entries)
+    
     const firstAttendance = filteredData.find(
       (attendance) => attendance.id === personId
     );
@@ -158,7 +158,7 @@ const AttendanceTable = () => {
 
       <TableContainer component={Paper}>
         <Table>
-          {/* Use TableHead component and add class name */}
+          
           <TableHead className="TableHead">
             <TableRow>
               <TableCell className="heading-cell">Date</TableCell>

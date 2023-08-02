@@ -1,4 +1,4 @@
-/* TableStyles.css */
+
 .table-container-log {
   display: flex;
   justify-content: center;
@@ -32,11 +32,11 @@
 .table-container-log > .MuiTableContainer-root {
   flex: 1;
   width: 100%;
-  max-width: 800px; /* Optionally set a max-width for the table container */
+  max-width: 800px;
 }
-/* Attendance.css */
+
 .heading-cell {
-  background-color: #8cabe0; /* Change this color to your desired background color */
+  background-color: #8cabe0; 
 }
 .search-container {
   display: flex;

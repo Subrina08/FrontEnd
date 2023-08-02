@@ -8,7 +8,7 @@ const EmployeeAttendanceTable = ({ data }) => {
         <TableHead>
           <TableRow>
             <TableCell>Attendance ID</TableCell>
-            <TableCell>Access Card ID</TableCell> {/* Added the new field */}
+            <TableCell>Access Card ID</TableCell> 
             <TableCell>Name</TableCell>
             <TableCell>Location</TableCell>
             <TableCell>Date</TableCell>
@@ -21,7 +21,7 @@ const EmployeeAttendanceTable = ({ data }) => {
           {data.map((attendance) => (
             <TableRow key={attendance.attendanceId}>
               <TableCell>{attendance.attendanceId}</TableCell>
-              <TableCell>{attendance.employee.accessCardId}</TableCell> {/* Displaying the new field */}
+              <TableCell>{attendance.employee.accessCardId}</TableCell> 
               <TableCell>{attendance.employee.name}</TableCell>
               <TableCell>{attendance.employee.location}</TableCell>
               <TableCell>{attendance.date}</TableCell>

@@ -29,7 +29,7 @@ const userReducer = (state = initialState, action) => {
         isLoading: false,
         error: action.payload,
       };
-    // Add other cases for different actions if needed
+   
     default:
       return state;
   }

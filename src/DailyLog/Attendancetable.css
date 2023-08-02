@@ -1,10 +1,10 @@
-/* Attendancetable.css */
+
 
 .page-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-right: 20px; /* Adjust the value to control the right margin */
+  padding-right: 20px;
 }
 
 .date-filter-container {
@@ -19,13 +19,11 @@
 }
 
 .filter-entries-button {
-  margin-left: 10px; /* Add some spacing between the date inputs and the button */
+  margin-left: 10px;
 }
-/* Attendancetable.css */
 
-/* Styles for the TableHead component (column names) */
 .TableHead {
-  background-color: #8cabe0; /* Set the background color */
-  color: #333; /* Set the text color */
-  font-weight: bold; /* Add bold font weight to make it more prominent */
+  background-color: #8cabe0; 
+  color: #333;
+  font-weight: bold; 
 }

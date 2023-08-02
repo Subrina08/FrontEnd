@@ -16,9 +16,6 @@
     justify-content: flex-end;
     margin-top: 20px;
   }
-/* TimesheetForm.css */
-
-
 
 .horizontal-form {
   display: flex;
@@ -43,12 +40,12 @@
   margin-top: 5px;
   color: #888;
 }
-/* TimesheetForm.css */
+
 
 .form-container {
   width: 100%;
-  max-width: 800px; /* You can adjust the maximum width as per your preference */
-  margin: 0 auto; /* Center the form on the page */
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 20px;
   box-sizing: border-box;
 }
@@ -71,4 +68,4 @@
   min-width: 250px;
 }
 
-/* Rest of the existing CSS styles remain unchanged */
+

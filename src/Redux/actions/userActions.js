@@ -17,8 +17,7 @@ export const loginFailure = (error) => ({
 });
 
 export const login = (username, password) => (dispatch) => {
-  // Simulate asynchronous login process (e.g., API call)
-  // For demonstration purposes, let's assume the login is successful for a user with the role "MANAGER"
+  
   if (username === "manager" && password === "password") {
     dispatch(loginSuccess());
     dispatch(setUserRole("MANAGER"));
